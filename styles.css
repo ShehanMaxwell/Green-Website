@@ -109,6 +109,23 @@ nav {
   font-size: 12px;
 }
 
+/* star-point-container section */
+.star-point-container {
+  display: grid;
+  grid-auto-flow: dense;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 180px), 1fr));
+}
+
+/* stat-section */
+.stat-container {
+  display: grid;
+  grid-auto-flow: dense;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 180px), 1fr));
+  margin: 5%;
+}
+
 /* star description */
 
 .star-description {
@@ -178,9 +195,9 @@ nav {
 
 /* feature star bullet point section */
 .feature-star-bulletpoints-col {
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 /* testimonials section  */
@@ -205,15 +222,6 @@ nav {
 }
 
 .card {
-  /* text-align: center;
-  padding: 20px;
-  border: 2px solid #dbdbdb;
-  background-color: #ffffff;
-
-  display: flex;
-  flex-direction: column;
-  gap: 2rem; */
-
   text-align: center;
   background-color: #ffffff;
   border: 2px solid #dbdbdb;
