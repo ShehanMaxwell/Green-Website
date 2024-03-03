@@ -276,6 +276,11 @@ nav {
 }
 /* media quaries */
 
+/* @media (min-width: 480px) {
+  .star-point-container {
+  }
+} */
+
 @media (max-width: 768px) {
   .hamburger {
     display: flex;
